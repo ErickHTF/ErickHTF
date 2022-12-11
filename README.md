@@ -1,16 +1,25 @@
-### Hi there 👋
+## Olá 👋 Eu sou o Erick!
+- 🚀 Hard skills: Banco de dados MySQL, HTML 5, CSS3
+- 🌱 Atualmente estou aprendendo: HTML 5, CSS 3, JavaScript
+- 📫 Como chegar até mim: erick.henrique2@outlook.com
+- 😄 Pronouns: ele/dele
 
-<!--
-**ErickHTF/ErickHTF** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <a href="https://github.com/ErickHTF">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ErickHTF&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img width="48%"" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ErickHTF&layout=compact&langs_count=7&theme=tokyonight"/>
+</div>
 
-Here are some ideas to get you started:
+## 👨‍💻 Tecnologias do meu interesse 👨‍💻
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![xm](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![ht](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![cs](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+## 💻 Estruturas e Biblioteca 💻
+![xm](https://img.shields.io/badge/Xampp-F37623?style=for-the-badge&logo=xampp&logoColor=white)
+
+## 👩‍💻 IDE 👩‍💻
+![vs](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![st](https://img.shields.io/badge/sublime_text-%23575757.svg?&style=for-the-badge&logo=sublime-text&logoColor=important)
