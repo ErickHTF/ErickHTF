@@ -4,7 +4,7 @@
 - 📫 Como chegar até mim: erick.henrique2@outlook.com
 - 😄 Pronouns: ele/dele
 
-<div align="center">
+<div align="left">
   <a href="https://github.com/ErickHTF">
   <img width="48%"" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ErickHTF&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
