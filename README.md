@@ -1,7 +1,7 @@
 ## Olá 👋 Eu sou o Erick!
 - 🚀 Hard skills: Banco de dados MySQL, HTML 5, CSS3
 - 🌱 Atualmente estou aprendendo: HTML 5, CSS 3, JavaScript
-- 📫 Como chegar até mim: erick.henrique2@outlook.com
+- 📫 Como chegar até mim: erick.henrique4@outlook.com
 - 😄 Pronouns: ele/dele
 
 <div>
