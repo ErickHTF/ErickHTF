@@ -1,5 +1,5 @@
 <a href="https://www.erickhtf.com.br">
-  <img src="assets/banner.png" alt="Erick Fortunato — Backend Developer. Still chasing why things break." width="100%">
+  <img src="assets/banner.png" alt="Fullstack Developer. Still chasing why things break." width="100%">
 </a>
 
 ### `01` Stack
@@ -13,4 +13,4 @@
   <img src="assets/footer.gif" alt="Let's talk — erickhtf.com.br" width="100%">
 </a>
 
-[LinkedIn](https://linkedin.com/in/erickhentf) · [erick.henrique4@outlook.com](mailto:erick.henrique4@outlook.com)
+<a href="mailto:erick.henrique4@outlook.com"><img src="assets/contact-email.png" alt="Email — erick.henrique4@outlook.com" width="50%"></a><a href="https://linkedin.com/in/erickhentf"><img src="assets/contact-linkedin.png" alt="LinkedIn — in/erickhentf" width="50%"></a>

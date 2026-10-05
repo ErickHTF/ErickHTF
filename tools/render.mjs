@@ -39,16 +39,14 @@ const banner = `
 .wrap { display: flex; height: 100%; padding: 0 56px; align-items: center; gap: 40px; }
 .text { flex: 1; display: flex; flex-direction: column; gap: 22px; }
 .eyebrow { font-size: 12px; color: var(--fg-soft); }
-h1 { font-family: Antonio, sans-serif; font-weight: 300; font-size: 92px; line-height: 0.92; letter-spacing: -0.015em; text-transform: uppercase; }
-.lead { font-size: 20px; font-weight: 500; color: var(--fg-soft); max-width: 380px; }
+h1 { font-family: Antonio, sans-serif; font-weight: 300; font-size: 72px; line-height: 0.95; letter-spacing: -0.015em; text-transform: uppercase; }
 .site { font-size: 12px; color: var(--accent); }
 .fig { width: 250px; height: 312px; --src: url(${art("ehtf-gravura-hero-empireo")}); }
 </style>
 <div class="wrap">
   <div class="text">
-    <p class="eyebrow mono">Backend Developer</p>
-    <h1>Erick<br>Fortunato</h1>
-    <p class="lead">Still chasing why things break.</p>
+    <p class="eyebrow mono">Fullstack Developer</p>
+    <h1>Still chasing<br>why things break.</h1>
     <p class="site mono">erickhtf.com.br ↗</p>
   </div>
   <div class="fig ink"></div>
@@ -70,6 +68,23 @@ h2 { font-family: Antonio, sans-serif; font-weight: 300; font-size: 56px; line-h
   </div>
 </div>`;
 
+const channel = ({ rank, note, name, handle, link }) => `
+<style>
+.card { display: flex; flex-direction: column; gap: 16px; height: 100%; padding: 28px 40px; }
+.rule { height: 1px; background: var(--line); }
+.rank { font-size: 14px; color: var(--muted); }
+.note { color: var(--accent); }
+.name { font-family: Antonio, sans-serif; font-weight: 400; font-size: 52px; line-height: 1; }
+.handle { font-family: JBM, monospace; font-size: 16px; color: var(--fg-soft); }
+.handle.link { color: var(--fg); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 5px; }
+</style>
+<div class="card">
+  <div class="rule"></div>
+  <p class="rank mono">${rank}${note ? ` <span class="note">${note}</span>` : ""}</p>
+  <p class="name">${name}</p>
+  <p class="handle${link ? " link" : ""}">${handle}</p>
+</div>`;
+
 mkdirSync(OUT, { recursive: true });
 const tmp = join(tmpdir(), "ehtf-readme-render");
 mkdirSync(tmp, { recursive: true });
@@ -77,6 +92,8 @@ mkdirSync(tmp, { recursive: true });
 const jobs = [
   ["banner", banner, 880, 380, OUT],
   ["footer-bg", footer, 880, 220, tmp],
+  ["contact-email", channel({ rank: "#1", note: "// fastest", name: "Email", handle: "erick.henrique4@outlook.com", link: true }), 520, 200, OUT],
+  ["contact-linkedin", channel({ rank: "#2", name: "LinkedIn", handle: "in/erickhentf ↗" }), 520, 200, OUT],
 ];
 
 for (const [name, body, w, h, dir] of jobs) {
