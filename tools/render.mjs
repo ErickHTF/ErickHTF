@@ -40,7 +40,7 @@ const banner = `
 .text { flex: 1; display: flex; flex-direction: column; gap: 22px; }
 .eyebrow { font-size: 12px; color: var(--fg-soft); }
 h1 { font-family: Antonio, sans-serif; font-weight: 300; font-size: 92px; line-height: 0.92; letter-spacing: -0.015em; text-transform: uppercase; }
-.lead { font-size: 17px; color: var(--fg-soft); max-width: 380px; }
+.lead { font-size: 20px; font-weight: 500; color: var(--fg-soft); max-width: 380px; }
 .site { font-size: 12px; color: var(--accent); }
 .fig { width: 250px; height: 312px; --src: url(${art("ehtf-gravura-hero-empireo")}); }
 </style>
