@@ -112,4 +112,4 @@ for (const [name, body, w, h, dir] of jobs) {
   console.log(`${name}.png`);
 }
 
-execFileSync(process.execPath, [resolve("tools/footer-gif.mjs"), join(tmp, "footer-bg.png"), join(OUT, "footer.gif")], { stdio: "inherit" });
+execFileSync("python", [resolve("tools/footer-gif.py"), resolve("tools/galaxy.gif"), join(tmp, "footer-bg.png"), join(OUT, "footer.gif")], { stdio: "inherit" });

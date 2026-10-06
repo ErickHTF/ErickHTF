@@ -1,6 +1,0 @@
-{
-  "private": true,
-  "dependencies": {
-    "gifenc": "^1.0.3"
-  }
-}
