@@ -5,8 +5,6 @@
 Java and Spring Boot developer focused on backend systems, APIs, PostgreSQL,
 AWS and production observability.
 
-![Java](https://img.shields.io/badge/Java-Language-ED8B00?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-6DB33F?logo=springboot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white)
-
 ## Featured projects
 
 | Project                                                                  | What it demonstrates                                                     |
